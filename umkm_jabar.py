@@ -17,7 +17,7 @@ st.write("""
          """)
 
 # Dataset 
-df = pd.read_csv("D:\DGX\Kursus Semester 1\Streamlit\data_umkm_jabar.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/andriankharisma/streamlit-test-umkm-jabar/main/data_umkm_jabar.csv")
 
 # Total Kab/Kota dan UMKM
 st.header("Total Kab/Kota & Proyeksi UMKM")
